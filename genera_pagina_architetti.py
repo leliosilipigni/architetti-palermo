@@ -250,7 +250,7 @@ HTML = f"""<!DOCTYPE html>
   .kpi{{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-top:26px}}
   .k{{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px 16px}}
   .k b{{display:block;font-size:26px;font-weight:850;letter-spacing:-.6px}}
-  .k span{{color:var(--dim);font-size:11.5px;text-transform:uppercase;letter-spacing:.7px;font-weight:700}}
+  .k span{{color:#9aa8c4;font-size:11.5px;text-transform:uppercase;letter-spacing:.7px;font-weight:700}}
 
   .toolbar{{position:sticky;top:0;z-index:20;background:rgba(12,18,32,.93);
     backdrop-filter:blur(14px);border-bottom:1px solid var(--border);padding:12px 0;margin-top:8px}}
@@ -262,6 +262,7 @@ HTML = f"""<!DOCTYPE html>
   #q{{flex:1;min-width:170px;background:var(--card);border:1px solid var(--border);color:var(--txt);
     padding:9px 15px;border-radius:999px;font-size:13.5px;font-family:inherit;outline:none}}
   #q:focus{{border-color:var(--orange)}}
+  #q::placeholder{{color:#8b97b1;opacity:1}}
 
   h2{{font-size:clamp(19px,4.6vw,25px);letter-spacing:-.5px;margin:40px 0 6px;font-weight:800}}
   h2 .line{{display:block;height:3px;width:46px;background:var(--orange);border-radius:2px;margin-top:10px}}
